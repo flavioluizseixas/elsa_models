@@ -1,3 +1,6 @@
+gc()
+rm(list = ls())
+
 library(caret)
 library(magrittr)
 library(dplyr)
@@ -8,9 +11,6 @@ library(ROCR)
 
 library(ggplot2)
 
-#setwd("G:/Meu Drive/Projetos/2022 - PosDoc/ELSA datasets and description files/R/constructed_temporal_features/Dynamic-Models")
-
-rm(list = ls())
 #######################################################################################
 performModels <- function(new_train, testing, atts_f, class_name) {
 
@@ -151,7 +151,7 @@ for (ref in 4:7) {
   names(rs) <- my_names
   names(atts_f) <- my_names
 
-  save(path, rs, selectAtt, atts_f, file = paste0(ref, "_", filename, "_", ext, "_results.RData"))
+  save(rs, selectAtt, atts_f, file = paste0(path, ref, "_", filename, "_", ext, "_results.RData"))
 }
 
 
