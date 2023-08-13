@@ -43,7 +43,7 @@ Table: Table 1
 |numeric   |r7imrc        |      1835|     0.7898534|NA             |              NA|NA                 |    6.1520951|  1.7425451|          0|           5|           6|           7|           10|▁▂▇▇▁        |1 R1IMRC r1imrc:w1 r immediate word recall Cont                         |
 |numeric   |r7dlrc        |      1825|     0.7909986|NA             |              NA|NA                 |    4.8510207|  2.0799158|          0|           4|           5|           6|           10|▂▆▇▃▁        |1 R1DLRC r1dlrc:w1 r delayed word recall Cont                           |
 |numeric   |r7tr20        |      1835|     0.7898534|NA             |              NA|NA                 |   11.0097144|  3.5520318|          0|           9|          11|          13|           20|▁▃▇▅▁        |1 R1TR20 r1tr20:w1 r recall summary score Cont                          |
-|numeric   |r7mo          |      1562|     0.8211177|NA             |              NA|NA                 |    0.0172943|  0.1303747|          0|           0|           0|           0|            1|▇▁▁▁▁        |1 R1MO r1mo:w1 r cognition date naming-month Categ                      |
+|numeric   |r7mo          |      1562|     0.8211177|NA             |              NA|NA                 |    0.0172943|  0.1303747|          0|           0|           0|           0|            1|▇▁▁▁▁        |7 R7MNRC r7mnrc:w7 r current monarch Categ                              |
 |numeric   |r7orient      |      1909|     0.7813788|NA             |              NA|NA                 |    3.8194343|  0.4612741|          0|           4|           4|           4|            4|▁▁▁▁▇        |1 R1ORIENT r1orient:w1 r cognition orient (summary date naming) Cont    |
 |numeric   |r7verbf       |      1825|     0.7909986|NA             |              NA|NA                 |   21.8737513|  7.0625224|          0|          17|          22|          26|           67|▁▇▃▁▁        |1 R1VERBF r1verbf:w1 r verbal fluency score Cont                        |
 |numeric   |r7numer_e     |      8340|     0.0448923|NA             |              NA|NA                 |    4.4183673|  1.3064739|          0|           3|           5|           5|            6|▁▁▂▃▇        |1 R1NUMER_E r1numer_e:w1 r numeracy score Cont                          |
@@ -77,7 +77,7 @@ Table: Table 1
 |numeric   |r8imrc        |      1909|     0.7813788|NA             |              NA|NA                 |    6.1184230|  1.7496624|          0|           5|           6|           7|           10|▁▂▇▇▂        |1 R1IMRC r1imrc:w1 r immediate word recall Cont                         |
 |numeric   |r8dlrc        |      1876|     0.7851580|NA             |              NA|NA                 |    4.7745041|  2.1997077|          0|           4|           5|           6|           10|▃▆▇▃▁        |1 R1DLRC r1dlrc:w1 r delayed word recall Cont                           |
 |numeric   |r8tr20        |      1909|     0.7813788|NA             |              NA|NA                 |   10.9157262|  3.6601153|          0|           9|          11|          13|           20|▁▃▇▅▁        |1 R1TR20 r1tr20:w1 r recall summary score Cont                          |
-|numeric   |r8mo          |      1590|     0.8179111|NA             |              NA|NA                 |    0.0236628|  0.1520071|          0|           0|           0|           0|            1|▇▁▁▁▁        |1 R1MO r1mo:w1 r cognition date naming-month Categ                      |
+|numeric   |r8mo          |      1590|     0.8179111|NA             |              NA|NA                 |    0.0236628|  0.1520071|          0|           0|           0|           0|            1|▇▁▁▁▁        |7 R7MNRC r7mnrc:w7 r current monarch Categ                              |
 |numeric   |r8orient      |      1959|     0.7756528|NA             |              NA|NA                 |    3.7959545|  0.5152731|          0|           4|           4|           4|            4|▁▁▁▂▇        |1 R1ORIENT r1orient:w1 r cognition orient (summary date naming) Cont    |
 |numeric   |r8verbf       |      1876|     0.7851580|NA             |              NA|NA                 |   21.9585764|  7.2890337|          0|          17|          22|          26|           99|▅▇▁▁▁        |1 R1VERBF r1verbf:w1 r verbal fluency score Cont                        |
 |numeric   |r8numer_e     |      8562|     0.0194686|NA             |              NA|NA                 |    3.4294118|  2.1968953|          0|           2|           4|           5|            6|▅▁▂▃▇        |1 R1NUMER_E r1numer_e:w1 r numeracy score Cont                          |
@@ -111,7 +111,7 @@ Table: Table 1
 |numeric   |r9imrc        |       599|     0.9314017|NA             |              NA|NA                 |    6.0279110|  1.7695804|          0|           5|           6|           7|           10|▁▂▇▇▁        |1 R1IMRC r1imrc:w1 r immediate word recall Cont                         |
 |numeric   |r9dlrc        |       552|     0.9367842|NA             |              NA|NA                 |    4.6718826|  2.1457850|          0|           3|           5|           6|           10|▃▆▇▃▁        |1 R1DLRC r1dlrc:w1 r delayed word recall Cont                           |
 |numeric   |r9tr20        |       600|     0.9312872|NA             |              NA|NA                 |   10.7267585|  3.6433832|          0|           9|          11|          13|           20|▁▃▇▅▁        |1 R1TR20 r1tr20:w1 r recall summary score Cont                          |
-|numeric   |r9mo          |         3|     0.9996564|NA             |              NA|NA                 |    0.0419292|  0.2004389|          0|           0|           0|           0|            1|▇▁▁▁▁        |1 R1MO r1mo:w1 r cognition date naming-month Categ                      |
+|numeric   |r9mo          |         3|     0.9996564|NA             |              NA|NA                 |    0.0419292|  0.2004389|          0|           0|           0|           0|            1|▇▁▁▁▁        |7 R7MNRC r7mnrc:w7 r current monarch Categ                              |
 |numeric   |r9orient      |       658|     0.9246450|NA             |              NA|NA                 |    3.7870944|  0.5401065|          0|           4|           4|           4|            4|▁▁▁▂▇        |1 R1ORIENT r1orient:w1 r cognition orient (summary date naming) Cont    |
 |numeric   |r9verbf       |       551|     0.9368988|NA             |              NA|NA                 |   22.1592715|  7.4846989|          0|          17|          22|          27|           56|▁▇▇▁▁        |1 R1VERBF r1verbf:w1 r verbal fluency score Cont                        |
 |numeric   |r9numer_e     |      7551|     0.1352497|NA             |              NA|NA                 |    4.3378493|  1.3679745|          0|           3|           5|           5|            6|▁▁▃▃▇        |1 R1NUMER_E r1numer_e:w1 r numeracy score Cont                          |
@@ -318,7 +318,7 @@ Table: Table 2
 |numeric   |f_r9mnrc_r8mnrc_diff              |      2127|     0.7564132|NA             |              NA|NA                 |           NA|NA            |   -0.0037850|  0.1236100|   -1.0000000|   0.0000000|   0.0000000|   0.0000000|     1.000000|▁▁▇▁▁        |
 |numeric   |f_r9mnrc_r8mnrc_ratio             |      2190|     0.7491984|NA             |              NA|NA                 |           NA|NA            |    0.9903699|  0.0976668|    0.0000000|   1.0000000|   1.0000000|   1.0000000|     1.000000|▁▁▁▁▇        |
 
-### Harmonised Cognitive Assessment Protocol
+### Healthy Cognitive Assessment Protocol
 
 We used features from Harmonized Cognitive Assessment Protocol. Table 3 shows the HCAP features. The figure below shows the HCAP data scheme.
 
@@ -414,24 +414,6 @@ Using:
 
 Using:
 
--   Feature selection with complete rate \> 0.8
-
--   KNN
-
--   SMOTE
-
--   CV 10 folds
-
--   with original ELSA data: ![](Data/Exp3_withOriginalFeatures.png) ![](Data/Exp3_withOriginalFeatures-CM.png) ![](Data/Exp3_withOriginalFeatures-IMP.png)
-
--   with CTFs: ![](Data/Exp3_withCTF.png) ![](Data/Exp3_withCTF-CM.png) ![](Data/Exp3_withCTF-IMP.png)
-
--   with HCAP: ![](Data/Exp3_withHCAP.png) ![](Data/Exp3_withHCAP-CM.png) ![](Data/Exp3_withHCAP-IMP.png)
-
-### Experiment 4
-
-Using:
-
 -   Feature selection with complete rate \> 0.5
 
 -   KNN
@@ -440,14 +422,14 @@ Using:
 
 -   nested CV with 5 outer folds and 10 inner folds
 
--   with original ELSA data: ![](Data/Exp4_withOriginalFeatures.png) ![](Data/Exp4_withOriginalFeatures-CM.png) ![](Data/Exp4_withOriginalFeatures-IMP.png)
+-   with original ELSA data: ![](Data/Exp3_withOriginalFeatures.png) ![](Data/Exp3_withOriginalFeatures-CM.png) ![](Data/Exp3_withOriginalFeatures-IMP.png)
 
--   with CTFs: ![](Data/Exp4_withCTF.png) ![](Data/Exp4_withCTF-CM.png) ![](Data/Exp4_withCTF-IMP.png)
+-   with CTFs: ![](Data/Exp3_withCTF.png) ![](Data/Exp3_withCTF-CM.png) ![](Data/Exp3_withCTF-IMP.png)
 
--   with HCAP: ![](Data/Exp4_withHCAP.png) ![](Data/Exp4_withHCAP-CM.png) ![](Data/Exp4_withHCAP-IMP.png)
+-   with HCAP: ![](Data/Exp3_withHCAP.png) ![](Data/Exp3_withHCAP-CM.png) ![](Data/Exp3_withHCAP-IMP.png)
 
 
-### Summary features importance
+### Features importance summary
 
 ![](Data/ExpSUM_withOriginalFeatures-IMP.png) ![](Data/ExpSUM_withCTF-IMP.png)
 ![](Data/ExpSUM_withHCAP-IMP.png)
