@@ -120,6 +120,17 @@ Table: Table 1
 |numeric   |r9scis        |       613|     0.9297984|NA             |              NA|NA                 |    0.9896539|  0.1011945|          0|           1|           1|           1|            1|▁▁▁▁▇        |7 R7SCIS r7scis:w7 r object naming scissors Categ                       |
 |numeric   |r9mnrc        |       642|     0.9264773|NA             |              NA|NA                 |    0.9833127|  0.1281048|          0|           1|           1|           1|            1|▁▁▁▁▇        |7 R7MNRC r7mnrc:w7 r current monarch Categ                              |
 
+Table 2 shows the attributes with complete rate less than 50%.
+
+
+Table: Table 2
+
+|skim_type |skim_variable | n_missing| complete_rate|factor.ordered | factor.n_unique|factor.top_counts | numeric.mean| numeric.sd| numeric.p0| numeric.p25| numeric.p50| numeric.p75| numeric.p100|numeric.hist |Description                                    |
+|:---------|:-------------|---------:|-------------:|:--------------|---------------:|:-----------------|------------:|----------:|----------:|-----------:|-----------:|-----------:|------------:|:------------|:----------------------------------------------|
+|numeric   |r7numer_e     |      8340|     0.0448923|NA             |              NA|NA                |     4.418367|   1.306474|          0|           3|           5|           5|            6|▁▁▂▃▇        |1 R1NUMER_E r1numer_e:w1 r numeracy score Cont |
+|numeric   |r8numer_e     |      8562|     0.0194686|NA             |              NA|NA                |     3.429412|   2.196895|          0|           2|           4|           5|            6|▅▁▂▃▇        |1 R1NUMER_E r1numer_e:w1 r numeracy score Cont |
+|numeric   |r9numer_e     |      7551|     0.1352497|NA             |              NA|NA                |     4.337849|   1.367975|          0|           3|           5|           5|            6|▁▁▃▃▇        |1 R1NUMER_E r1numer_e:w1 r numeracy score Cont |
+
 We used features from waves 7, 8 and 9. These waves represents the most recent waves available in the ELSA. The figure below shows the data blocks used in this experiment.
 
 ![](Images/Draws-Strategy-Waves.drawio-1.png)
@@ -133,11 +144,10 @@ The longitudinal data are built based on sectional features. We added the **C**o
 The figure below shows the data and waves for each CTF function.
 
 ![](Images/Draws-Strategy-Waves.drawio-2.png)
+Table 3 shows the CTFs.
 
-Table 2 shows the CTFs.
 
-
-Table: Table 2
+Table: Table 3
 
 |skim_type |skim_variable                     | n_missing| complete_rate|factor.ordered | factor.n_unique|factor.top_counts  | logical.mean|logical.count | numeric.mean| numeric.sd|   numeric.p0| numeric.p25| numeric.p50| numeric.p75| numeric.p100|numeric.hist |
 |:---------|:---------------------------------|---------:|-------------:|:--------------|---------------:|:------------------|------------:|:-------------|------------:|----------:|------------:|-----------:|-----------:|-----------:|------------:|:------------|
@@ -318,14 +328,50 @@ Table: Table 2
 |numeric   |f_r9mnrc_r8mnrc_diff              |      2127|     0.7564132|NA             |              NA|NA                 |           NA|NA            |   -0.0037850|  0.1236100|   -1.0000000|   0.0000000|   0.0000000|   0.0000000|     1.000000|▁▁▇▁▁        |
 |numeric   |f_r9mnrc_r8mnrc_ratio             |      2190|     0.7491984|NA             |              NA|NA                 |           NA|NA            |    0.9903699|  0.0976668|    0.0000000|   1.0000000|   1.0000000|   1.0000000|     1.000000|▁▁▁▁▇        |
 
+Table 4 shows the attributes with complete rate less than 50%.
+
+
+Table: Table 4
+
+|skim_type |skim_variable                     | n_missing| complete_rate|factor.ordered | factor.n_unique|factor.top_counts | logical.mean|logical.count | numeric.mean| numeric.sd| numeric.p0| numeric.p25| numeric.p50| numeric.p75| numeric.p100|numeric.hist |
+|:---------|:---------------------------------|---------:|-------------:|:--------------|---------------:|:-----------------|------------:|:-------------|------------:|----------:|----------:|-----------:|-----------:|-----------:|------------:|:------------|
+|logical   |f_r8fallslp_monotonicity          |      8732|     0.0000000|NA             |              NA|NA                |          NaN|:             |           NA|         NA|         NA|          NA|          NA|          NA|           NA|NA           |
+|logical   |f_r9bwc20_monotonicity            |      8732|     0.0000000|NA             |              NA|NA                |          NaN|:             |           NA|         NA|         NA|          NA|          NA|          NA|           NA|NA           |
+|logical   |f_r9ser7_monotonicity             |      8732|     0.0000000|NA             |              NA|NA                |          NaN|:             |           NA|         NA|         NA|          NA|          NA|          NA|           NA|NA           |
+|logical   |f_r9scis_monotonicity             |      8732|     0.0000000|NA             |              NA|NA                |          NaN|:             |           NA|         NA|         NA|          NA|          NA|          NA|           NA|NA           |
+|logical   |f_r9mnrc_monotonicity             |      8732|     0.0000000|NA             |              NA|NA                |          NaN|:             |           NA|         NA|         NA|          NA|          NA|          NA|           NA|NA           |
+|numeric   |f_r9hlthlm_r8hlthlm_ratio         |      6896|     0.2102611|NA             |              NA|NA                |           NA|NA            |    0.7135076|  0.4522454|   0.000000|   0.0000000|    1.000000|   1.0000000|     1.000000|▃▁▁▁▇        |
+|numeric   |f_r9adltot_e_r8adltot_e_ratio     |      7606|     0.1289510|NA             |              NA|NA                |           NA|NA            |    0.8945678|  0.9994210|   0.000000|   0.0000000|    1.000000|   1.0000000|     6.000000|▇▂▁▁▁        |
+|numeric   |f_r9iadltot2_e_r8iadltot2_e_ratio |      7423|     0.1499084|NA             |              NA|NA                |           NA|NA            |    0.9647198|  1.0905243|   0.000000|   0.0000000|    1.000000|   1.2857143|     9.000000|▇▁▁▁▁        |
+|numeric   |f_r9jointre_r8jointre_ratio       |      7946|     0.0900137|NA             |              NA|NA                |           NA|NA            |    1.0000000|  0.0000000|   1.000000|   1.0000000|    1.000000|   1.0000000|     1.000000|▁▁▇▁▁        |
+|numeric   |f_r9fallnum_r8fallnum_ratio       |      7236|     0.1713239|NA             |              NA|NA                |           NA|NA            |    0.7673132|  2.9185121|   0.000000|   0.0000000|    0.000000|   1.0000000|   100.000000|▇▁▁▁▁        |
+|numeric   |f_r9painfr_r8painfr_ratio         |      6002|     0.3126432|NA             |              NA|NA                |           NA|NA            |    0.7293040|  0.4444007|   0.000000|   0.0000000|    1.000000|   1.0000000|     1.000000|▃▁▁▁▇        |
+|numeric   |f_r9urinai_r8urinai_ratio         |      7424|     0.1497939|NA             |              NA|NA                |           NA|NA            |    0.6888379|  0.4631460|   0.000000|   0.0000000|    1.000000|   1.0000000|     1.000000|▃▁▁▁▇        |
+|numeric   |f_r5breath_monotonicity           |      4554|     0.4784700|NA             |              NA|NA                |           NA|NA            |    0.0019148|  0.4058421|  -1.000000|   0.0000000|    0.000000|   0.0000000|     1.000000|▁▁▇▁▁        |
+|numeric   |f_r5breath_e_r4breath_e_ratio     |      7342|     0.1591846|NA             |              NA|NA                |           NA|NA            |    0.6733813|  0.4691453|   0.000000|   0.0000000|    1.000000|   1.0000000|     1.000000|▃▁▁▁▇        |
+|numeric   |f_r9smokev_r8smokev_ratio         |      4413|     0.4946175|NA             |              NA|NA                |           NA|NA            |    0.9983793|  0.0402305|   0.000000|   1.0000000|    1.000000|   1.0000000|     1.000000|▁▁▁▁▇        |
+|numeric   |f_r9shltc_monotonicity            |      5419|     0.3794091|NA             |              NA|NA                |           NA|NA            |    0.1101720|  0.6257332|  -2.000000|   0.0000000|    0.000000|   1.0000000|     2.000000|▁▂▇▃▁        |
+|numeric   |f_r9shltc_r8shltc_diff            |      4838|     0.4459459|NA             |              NA|NA                |           NA|NA            |    0.0344119|  0.7817907|  -4.000000|   0.0000000|    0.000000|   0.0000000|     4.000000|▁▃▇▃▁        |
+|numeric   |f_r9shltc_r8shltc_ratio           |      7794|     0.1074210|NA             |              NA|NA                |           NA|NA            |    0.1940299|  0.4379132|   0.000000|   0.0000000|    0.000000|   0.0000000|     3.000000|▇▂▁▁▁        |
+|numeric   |f_r9adlc_r8adlc_ratio             |      8452|     0.0320660|NA             |              NA|NA                |           NA|NA            |    0.4681548|  0.7844077|   0.000000|   0.0000000|    0.000000|   1.0000000|     4.000000|▇▂▁▁▁        |
+|numeric   |f_r9grossc_r8grossc_ratio         |      8371|     0.0413422|NA             |              NA|NA                |           NA|NA            |    0.5960295|  0.9001738|   0.000000|   0.0000000|    0.000000|   1.0000000|     4.000000|▇▃▁▁▁        |
+|numeric   |f_r9finec_r8finec_ratio           |      8461|     0.0310353|NA             |              NA|NA                |           NA|NA            |    0.2121771|  0.4793893|   0.000000|   0.0000000|    0.000000|   0.0000000|     2.000000|▇▁▂▁▁        |
+|numeric   |f_r9cogimp_r8cogimp_ratio         |      8420|     0.0357306|NA             |              NA|NA                |           NA|NA            |    0.2820513|  0.4507211|   0.000000|   0.0000000|    0.000000|   1.0000000|     1.000000|▇▁▁▁▃        |
+|numeric   |f_r9mo_r8mo_ratio                 |      8564|     0.0192396|NA             |              NA|NA                |           NA|NA            |    0.6071429|  0.4898456|   0.000000|   0.0000000|    1.000000|   1.0000000|     1.000000|▅▁▁▁▇        |
+|numeric   |f_r9numer_monotonicity            |      8726|     0.0006871|NA             |              NA|NA                |           NA|NA            |   -0.5000000|  0.5477226|  -1.000000|  -1.0000000|   -0.500000|   0.0000000|     0.000000|▇▁▁▁▇        |
+|numeric   |f_r9numer_slope                   |      8609|     0.0140861|NA             |              NA|NA                |           NA|NA            |   -0.1029152|  0.5006382|  -1.615385|  -0.3516484|    0.000000|   0.1923077|     1.000000|▁▁▃▇▂        |
+|numeric   |f_r9numer_intercept               |      8609|     0.0140861|NA             |              NA|NA                |           NA|NA            |    4.6319294|  1.4654062|   1.000000|   3.6153846|    4.666667|   5.6025641|     8.307692|▂▆▇▇▁        |
+|numeric   |f_r9numer_e_r8numer_e_diff        |      8731|     0.0001145|NA             |              NA|NA                |           NA|NA            |    0.0000000|         NA|   0.000000|   0.0000000|    0.000000|   0.0000000|     0.000000|▁▁▇▁▁        |
+|numeric   |f_r9numer_e_r8numer_e_ratio       |      8731|     0.0001145|NA             |              NA|NA                |           NA|NA            |    1.0000000|         NA|   1.000000|   1.0000000|    1.000000|   1.0000000|     1.000000|▁▁▇▁▁        |
+
 ### Healthy Cognitive Assessment Protocol
 
 We used features from Harmonized Cognitive Assessment Protocol. Table 3 shows the HCAP features. The figure below shows the HCAP data scheme.
 
-![](Images/Draws-Strategy-Waves.drawio-3.png) Table 3 shows the HCAP features.
+![](Images/Draws-Strategy-Waves.drawio-3.png) Table 5 shows the HCAP features.
 
 
-Table: Table 3
+Table: Table 5
 
 |skim_type |skim_variable            | n_missing| complete_rate|factor.ordered | factor.n_unique|factor.top_counts | numeric.mean| numeric.sd| numeric.p0| numeric.p25| numeric.p50| numeric.p75| numeric.p100|numeric.hist |
 |:---------|:------------------------|---------:|-------------:|:--------------|---------------:|:-----------------|------------:|----------:|----------:|-----------:|-----------:|-----------:|------------:|:------------|
@@ -372,7 +418,9 @@ The figure below show the machine learning process. ![](Images/Draws-Strategy-Fl
 
 ## Experiments
 
-We perform the experiments. ![](Images/Draws-Strategy-Strategy.drawio.png)
+We perform the experiments.
+
+![](Images/Draws-Strategy-Strategy.drawio.png)
 
 ### Experiment 1
 
